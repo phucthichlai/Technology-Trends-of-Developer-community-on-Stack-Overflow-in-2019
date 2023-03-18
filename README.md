@@ -1,35 +1,38 @@
-# <h1 align="center"> Technology Trends of Developer Community on Stack Overflow in 2019 <img src="https://github.com/PrinceCorwin/Useful-tech-icons/blob/main/images/python.png" width="50" height="50"></h1>
+# <h1 align="center"><img src="https://user-images.githubusercontent.com/104643138/226099890-190e555e-eea1-4c4d-9184-3787f5058b2c.png" width="40" height="40"> Technology Trends of Developer on Stack Overflow 2019 <img src="https://github.com/PrinceCorwin/Useful-tech-icons/blob/main/images/python.png" width="50" height="50"></h1>
 
 ## **1. Introduction** :pushpin:
 
-- **Objective**: This project aims to perform Exploratory Data Analysis on various factors that possibly have an impact on the price of used phones and tablets, and eventually develop a model to assist the pricing strategy for these screen devices.
+- **Objective**: The main objective of this report is to analyze technology usage trends as well as demographic features in the software developing work fields.
 
-- **Target Audiences**: The findings may provide some meaningful insights for Marketing, Sales and R&D Department working on the screen device industry.
+- **Target Audiences**: The findings may bring about considerable referencing benefits for: Aspiring developers, IT students, HR, Corporate managers, Policy makers.
 
 ## **2. Methodology**:microscope:
 
-- **Data Source:** ["Used Phones & Tablets Pricing Dataset"](https://www.kaggle.com/datasets/ahsan81/used-handheld-device-data) uploaded by AHSAN RAZA on Kaggle - a popular working environment for workers in Data and Machine Learning.
+- **Data Source:** ["Stack Overflow Developer Survey 2019"](https://stackoverflow.blog/2019/04/09/the-2019-stack-overflow-developer-survey-results-are-in/) The dataset was from an online survey of software developers around the world conducted by Stack Overflow in 2019. 
 
-- **License:** The data is available for download under CC0: Public Domain License.
+- **Data Collection:** The dataset was loaded from IBM Cloud into a data frame by using Pandas. The data visualized in the Appendix was collected by web scraping and APIs.
+
+- **License:** The data is available for download under an Open Database License.
+
+- **Data wrangling:**
+• Duplicate removal, missing values imputation and data normalization
+were conducted on the dataset using Python.
+
+- **Analysis & Visualization:**
+• Possible factors were visualized, then outliers were removed before correlation was calculated between the targeted variable and other numerical variables by using Seaborn, Matplotlib and Pandas.
+• A Cognos dashboard was made visualizing the key insights about technology usage trends and demographics.
 
 ## **3. Findings Summary** :bulb:
 
-After the EDA is performed, it can be seen that the price of used screen devices could be influenced by: 
-
-+ The amount of RAM
-+ When the device model was released
-+ Resolution of the front camera in megapixels
-+ Resolution of the rear camera in megapixels
-+ Size of the screen
-+ Energy capacity of the device battery
-+ Normalized price of a new device of the same model
-+ Operating System on which the device runs
-+ Whether 4G is available or not
-+ Whether 5G is available or not
+Some significant insights generated include:
+- The technology usage trend (e.g. which languages, platforms, databases,... are used the most) at the time of data collection.
+- The technology usage trend in the next years.
+- Gender gaps in the software developing industry.
 
 ## 4. Technologies used ⚙️:satellite:
 - [Python](https://coursera.org/share/9633cd154ac74544f87f83434258a90b) <img src="https://github.com/PrinceCorwin/Useful-tech-icons/blob/main/images/python.png" width="24" height="24">
-- [Statistics: Pearson, ANOVA](https://www.sagepub.com/sites/default/files/upm-binaries/33663_Chapter4.pdf) :bar_chart:
+- [Cognos](https://www.ibm.com/products/cognos-analytics)<img src="https://user-images.githubusercontent.com/104643138/226100535-a1276fa9-f2ae-4995-b153-a8fd0a231032.png" width="24" height="24">
 - [Jupyter Notebook](https://jupyter.org/) <img src="https://user-images.githubusercontent.com/104643138/226098051-177ede6d-3fe5-49a8-8f57-446caf49f94c.png" width="24" height="24">
-- Python Libraries: [Pandas](https://pandas.pydata.org/) <img src="https://user-images.githubusercontent.com/104643138/225993416-31cf4034-962c-4842-8821-5a5ccfc8e729.png" width="24" height="24"/> | [NumPy](https://numpy.org/) <img src="https://user-images.githubusercontent.com/104643138/225993758-e1b3af8b-47a0-405d-90ff-b2edeeac3d37.png" width="24" height="24"/> | [Matplotlib](https://matplotlib.org/) <img src="https://user-images.githubusercontent.com/104643138/225994026-078da32e-a169-4f83-9fa4-fc0d00c911c1.png" width="24" height="24"/>
-| [Seaborn](https://seaborn.pydata.org/) <img src="https://user-images.githubusercontent.com/104643138/225994199-d9f150a0-27b6-44bc-a581-2e21d7d0e9af.svg" width="24" height="24"/>
+- [JSON](https://www.json.org/json-en.html) <img src="https://user-images.githubusercontent.com/104643138/226101078-826deb08-f7c3-40a6-8669-69522acd74be.png" width="24" height="24"/>
+- Python Libraries: [Pandas](https://pandas.pydata.org/) <img src="https://user-images.githubusercontent.com/104643138/225993416-31cf4034-962c-4842-8821-5a5ccfc8e729.png" width="24" height="24"/> | [NumPy](https://numpy.org/) <img src="https://user-images.githubusercontent.com/104643138/225993758-e1b3af8b-47a0-405d-90ff-b2edeeac3d37.png" width="24" height="24"/> | [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)<img src="https://user-images.githubusercontent.com/104643138/226100902-6061d6bb-31eb-4a94-b414-a1482646915c.jpg" width="24" height="24"/>
+
