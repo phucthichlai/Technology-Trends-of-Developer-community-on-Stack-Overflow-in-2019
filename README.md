@@ -37,3 +37,7 @@ Some significant insights generated include:
 - [MS PowerPoint](https://www.microsoft.com/en-us/microsoft-365/powerpoint) <img src="https://user-images.githubusercontent.com/104643138/226101351-457d49ac-ac75-4371-ad72-db3f18f00c90.png" width="24" height="24">
 - Python Libraries: [Pandas](https://pandas.pydata.org/) <img src="https://user-images.githubusercontent.com/104643138/225993416-31cf4034-962c-4842-8821-5a5ccfc8e729.png" width="24" height="24"/> | [NumPy](https://numpy.org/) <img src="https://user-images.githubusercontent.com/104643138/225993758-e1b3af8b-47a0-405d-90ff-b2edeeac3d37.png" width="24" height="24"/> | [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)<img src="https://user-images.githubusercontent.com/104643138/226100902-6061d6bb-31eb-4a94-b414-a1482646915c.jpg" width="24" height="24"/>
 
+## You can reach me at 👇
+<img href="https://www.facebook.com/dobaophuc98/" src="https://img.shields.io/badge/Facebook-@dobaophuc98-1877F2?style=for-the-badge&logo=Facebook"/>
+<img href="https://www.linkedin.com/in/andy-data-analyst/" src="https://img.shields.io/badge/LinkedIn-@Andy_data_analyst-0A66C2?style=for-the-badge&logo=LinkedIn"/>
+<img src="https://img.shields.io/badge/Gmail-dobaophuc1998@gmail.com-EA4335?style=for-the-badge&logo=Gmail"/>
